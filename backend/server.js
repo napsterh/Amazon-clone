@@ -1,8 +1,10 @@
 import express from 'express';
+const cors = require('cors');
 import data from './models'
 
 const app = express();
 
+app.use(cors());
 app.get("/api/products", (req, res) => {
 
     res.send(data.products);

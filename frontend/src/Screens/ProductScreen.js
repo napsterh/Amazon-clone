@@ -10,6 +10,11 @@ function ProductScreen(props) {
                 <div className="back-to-result">
                     <Link to="/">Regresar</Link>
                 </div>
+                <div className="banner-container">
+                    <Link to="/">
+                        <img className="banner" src='/img/banner-global.png' alt=""></img>
+                    </Link>
+                </div>
                 <div className="details">
                     <div className="details-image">
                         <img src={product.image} alt="product"/>
@@ -23,12 +28,18 @@ function ProductScreen(props) {
                                 {product.rating} Estrellas ({product.view} Vistas)
                             </li>
                             <li>
+                                <div>Descuento {product.descuento}%</div>
+                            </li>
+                            <li>
                                 <b>S./{product.price}</b>
                             </li>
                             <li>
-                                {product.brand}
+                                {product.description}
                             </li>
                         </ul>
+                        <a href={product.uri_web} className="button-web">
+                            Ir a Web
+                        </a>
                     </div>
                     <div className="details-action">
                         <ul>
@@ -57,3 +68,4 @@ function ProductScreen(props) {
 }
 
 export default ProductScreen;
+

@@ -3,23 +3,27 @@ const models = {
     products: [
         {
             _id:'1',
-            name: 'PlayStation 4',
+            name: 'Sony',
             category: 'tecnologia',
             image: '/img/play.png',
             price: 1500,
-            brand: 'Sony',
+            descuento: '20',
+            description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.5,
-            view: 10
+            view: 10,
+            uri_web: 'https://www.playstation.com/es-pe/'
         },
         {
             _id:'2',
-            name: 'zapatillas',
+            name: 'Adidas',
             category: 'zapatos',
             image: '/img/adidas.png',
             price: 500,
-            brand: 'Adidas',
+            descuento: '25',
+            description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.5,
-            view: 15
+            view: 15,
+            uri_web: 'https://www.adidas.pe/'
         },
         {
             _id:'3',
@@ -27,49 +31,47 @@ const models = {
             category: 'tecnologia',
             image: '/img/samsung.png',
             price: 1800,
-            brand: 'Samsung',
+            descuento: '30',
+            description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.9,
-            view: 18
+            view: 18,
+            uri_web: 'https://www.samsung.com/pe/'
         },
         {
             _id:'4',
-            name: 'PlayStation 4',
+            name: 'Sony',
             category: 'tecnologia',
             image: '/img/play.png',
             price: 1500,
-            brand: 'Sony',
+            descuento: '20',
+            description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.5,
-            view: 10
+            view: 10,
+            uri_web: 'https://www.playstation.com/es-pe/'
         },
         {
             _id:'5',
-            name: 'zapatillas',
-            category: 'zapatos',
-            image: '/img/adidas.png',
-            price: 500,
-            brand: 'Adidas',
-            rating: 4.5,
-            view: 15
-        },
-        {
-            _id:'6',
-            name: 'Tv smart 42 pulgadas',
-            category: 'tecnologia',
-            image: '/img/samsung.png',
-            price: 1800,
-            brand: 'Samsung',
-            rating: 4.9,
-            view: 18
-        },
-        {
-            _id: '7',
-            name: 'PlayStation 4',
+            name: 'Sony',
             category: 'tecnologia',
             image: '/img/play.png',
             price: 1500,
-            brand: 'Sony',
+            descuento: '25',
+            description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.5,
-            view: 10
+            view: 10,
+            uri_web: 'https://www.playstation.com/es-pe/'
+        },
+        {
+            _id:'6',
+            name: 'Adidas',
+            category: 'zapatos',
+            image: '/img/adidas.png',
+            price: 500,
+            descuento: '30',
+            description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
+            rating: 4.5,
+            view: 15,
+            uri_web: 'https://www.adidas.pe/'
         }
     ]
 }
