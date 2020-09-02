@@ -7,7 +7,7 @@ function ProductScreen(props) {
         const product = data.products.find(x => x._id === props.match.params.id);
         return (
             <div>
-                <div>
+                <div className="back-to-result">
                     <Link to="/">Regresar</Link>
                 </div>
                 <div className="details">
@@ -47,7 +47,7 @@ function ProductScreen(props) {
                                 </select>
                             </li>
                             <li>
-                                <button>Agregar al carrito</button>
+                                <button className="button primary">Agregar al carrito</button>
                             </li>
                         </ul>
                     </div>
