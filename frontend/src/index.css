@@ -42,7 +42,7 @@ body{
 
 .header {
   grid-area: header;
-  background-color: #7487FC;
+  background-color: #F0F0F0;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -58,8 +58,12 @@ body{
   text-decoration: none;
 }
 
+.brand .logo {
+  margin-left: 4rem;
+}
+
 .header-links a{
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   padding: 1rem;
 }
