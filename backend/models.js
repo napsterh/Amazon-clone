@@ -11,7 +11,8 @@ const models = {
             description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.5,
             view: 10,
-            uri_web: 'https://www.playstation.com/es-pe/'
+            uri_web: 'https://www.playstation.com/es-pe/',
+            countInStock: 0
         },
         {
             _id:'2',
@@ -23,7 +24,8 @@ const models = {
             description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.5,
             view: 15,
-            uri_web: 'https://www.adidas.pe/'
+            uri_web: 'https://www.adidas.pe/',
+            countInStock: 11
         },
         {
             _id:'3',
@@ -35,7 +37,8 @@ const models = {
             description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.9,
             view: 18,
-            uri_web: 'https://www.samsung.com/pe/'
+            uri_web: 'https://www.samsung.com/pe/',
+            countInStock: 8
         },
         {
             _id:'4',
@@ -47,7 +50,8 @@ const models = {
             description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.5,
             view: 10,
-            uri_web: 'https://www.playstation.com/es-pe/'
+            uri_web: 'https://www.playstation.com/es-pe/',
+            countInStock: 15
         },
         {
             _id:'5',
@@ -59,7 +63,8 @@ const models = {
             description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.5,
             view: 10,
-            uri_web: 'https://www.playstation.com/es-pe/'
+            uri_web: 'https://www.playstation.com/es-pe/',
+            countInStock: 6
         },
         {
             _id:'6',
@@ -71,7 +76,8 @@ const models = {
             description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit pretium aliquet primis tellus senectus, consequat curabitur natoque fames faucibus tempor leo ultrices',
             rating: 4.5,
             view: 15,
-            uri_web: 'https://www.adidas.pe/'
+            uri_web: 'https://www.adidas.pe/',
+            countInStock: 8
         }
     ]
 }
