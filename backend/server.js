@@ -1,13 +1,30 @@
 import express from 'express';
 const cors = require('cors');
-import data from './models'
+import data from './models';
+import dotenv from 'dotenv';
+import config from './config';
+import mongoose from 'mongoose';
+import bodyParser from 'body-parser';
+import userRoute from './routes/userRoute';
+
+dotenv.config();
+
+const mongodbUrl = config.MONGODB_URL;
+mongoose.connect(mongodbUrl, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true
+}).catch(error => console.log(error.reason));
 
 const app = express();
 
 app.use(cors());
 
+app.use(bodyParser.json());
 
-app.use("/api/products/:id", (req, res) => {
+app.use('/api/users', userRoute);
+
+app.get("/api/products/:id", (req, res) => {
     const productId = req.params.id;
     const product = data.products.find(x => x._id === productId);
     if(product)

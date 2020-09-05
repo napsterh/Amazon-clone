@@ -10,7 +10,6 @@ function ProductScreen(props) {
         const [qty, setQty] = useState(1);
         const productDetails = useSelector((state) => state.productDetails);
         const { product, loading, error } = productDetails;
-        console.log(product);
         const dispatch = useDispatch();
 
         useEffect(() => {
